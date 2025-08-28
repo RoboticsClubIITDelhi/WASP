@@ -8,27 +8,19 @@
 
 ## 🔧 Hardware Specifications
 
-- **Dimensions**: !TODO()
+- **Dimensions**: 21cm x 18cm x 8.5cm (L x B x H)
 - **Drive System**: Differential drive 
 - **Sensors**:
-  - !TODO()
-- **Power**: 3.7V LiPo battery
+  - NA
+- **Power**: 2x 3.7V LiPo battery
 
-### Adding New CAD Files
-
-When adding new design files, please follow these guidelines:
-1. Create a new subdirectory if your design represents a major component
-2. Use descriptive filenames with version numbers (e.g., `chassis_v2.ipt`)
-3. Include a brief README in each directory describing the components
-4. For 3D printable files, include recommended print settings
-
-## 🔌 Electronics Design
-!TODO()
+~~## 🔌 Electronics Design
+!TODO()~~
 
 ### Base Configuration
-- **Microcontroller**: !TODO()
-- **Motor Driver**: !TODO()
-- **Sensor Interface**: !TODO()
+- **Microcontroller**: ESP 32
+- **Motor Driver**: L298N
+- ~~**Sensor Interface**:~~ 
 
 
 ## 📋 Bill of Materials
