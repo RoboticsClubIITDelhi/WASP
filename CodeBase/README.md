@@ -8,7 +8,7 @@
 
 ## 📁 Software Architecture
 
-The software for the Micromouse project is designed with modularity in mind, separating core control functions from maze-solving algorithms.
+The software for the WASP project is designed with modularity in mind, separating core control functions from cordinate algorithms.
 
 
 
