@@ -72,16 +72,15 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 - added controls to run the bot via buttons on a self-hosted website
 - added a button to get cordinates of bot on the website
 
-## 📚 Resources
+## 📚 Resources and references
 
 - for installations guides and issues, refer to instructions.txt files in the relevant folders/subfolders
-- for other resources, refer to [resources subfolder](https://github.com/RoboticsClubIITDelhi/WASP/resources/)
-
-### Tools and References (tbd)
-- !TODO()
+- for other resources, refer to [resources subfolder](https://github.com/RoboticsClubIITDelhi/WASP/tree/main/resources)
 
 ### Development Software
-- !TODO()
+- [Arduino IDE](https://www.arduino.cc/en/software/)
+- [Autodesk Inventor](https://www.autodesk.com/in/products/inventor/overview)
+- [EasyEDA](https://easyeda.com/)
 
 
 
