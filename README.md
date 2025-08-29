@@ -74,6 +74,9 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 
 ## 📚 Resources
 
+- for installations guides and issues, refer to instructions.txt files in the relevant folders/subfolders
+- for other resources, refer to [resources subfolder](https://github.com/RoboticsClubIITDelhi/WASP/resources/)
+
 ### Tools and References (tbd)
 - !TODO()
 
