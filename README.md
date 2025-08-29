@@ -15,7 +15,11 @@
 
 The aim of this project is to make a bot that would identify its location in space with respect to the accessing points using an ESP-8266 WI-FI module, and the bot would then traverse to the required location in an obstruction-free space as per the input location of the user, using method of trilateration, and algorithms like kalman filter.
 
-## 📚 Theory:
+# 📚 Theory:
+
+- [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
+- [ESP 8266 AT Firmware](https://www.espressif.com/en/support/download/at)
+- _For rest of the theory and documentation, refer to [resources subfolder](https://github.com/RoboticsClubIITDelhi/WASP/tree/main/resources)_
 
 
 
