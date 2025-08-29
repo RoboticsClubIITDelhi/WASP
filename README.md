@@ -34,7 +34,7 @@ The aim of this project is to make a bot that would identify its location in spa
 !ToDo()
 
 ## ⏱️ Project Timeline
-Main idea is to build a very very basic version first, probably within 2 weeks and then work on modifying it  ~~, (believer me doing otherwise is stupidity...)~~
+Main idea is to build a very very basic version first, probably within 2 weeks and then work on modifying it
 
 ### Week 1: Introduction
 -  Review the project documentations
@@ -48,17 +48,17 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 -  Assemble components to make a rudimentary bot
 -  Assemble rudimentary wifi access points
 
-### Week 3: Programming wifi access points ~~Debugging~~
--  Programming using usb to uart converter    ~~Hardware and software troubleshooting~~
+### Week 3: Programming wifi access points
+-  Programming using usb to uart converter
 -  Debugging esp8266 board issues while uploading code (* more on it in #issues section)
 
-### Week 4: Making all access points and Central Bot programming  ~~Algorithm Refinement~~
--  All 4 access points by designing our own PCB on perf boards ~~Enhance hardware robustnes~~
+### Week 4: Making all access points and Central Bot programming
+-  All 4 access points by designing our own PCB on perf boards
 -  Made functions in central bot to read RSSI data of all the wifi access points
 
 ### Weeks 5-7: Progressive Enhancements in central bot code
 - Implemented Functions to get distance from measured RSSI values on a separate module
-- Calibrated the function by testing at various distances to accurately get the calibrated coefficents ~~🔄 Implement iterative improvements (tbd)~~
+- Calibrated the function by testing at various distances to accurately get the calibrated coefficents 
 - Merged these functions into the exiisting central bot code
 - Tested out kalman filter functions and added that into our Central bot code
 - further debugging and refinements
@@ -66,7 +66,8 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 ### Weeks 8-9: Hardware improvements and locomotion
 - Refined access point circuits
 - Refined central bot chassis
-- added controls to run the bot via buttons on a self-hosted web server 
+- added controls to run the bot via buttons on a self-hosted website
+- added a button to get cordinates of bot on the website
 
 ## 📚 Resources
 
