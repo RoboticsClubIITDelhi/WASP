@@ -13,16 +13,31 @@
 
 ## 🤖 Project Overview
 
-This repository houses the codebase for the **!TODO(project name)**. It serves as a comprehensive collection of resources including code, CAD models, calculations, and component datasheets. Our aim is to create a well-documented reference that will enable future teams to build upon our work.
+~~This repository houses the codebase for the **!TODO(project name)**. It serves as a comprehensive collection of resources including code, CAD models, calculations, and component datasheets. Our aim is to create a well-documented reference that will enable future teams to build upon our work.~~
+
+The aim of this project is to make a bot that would identify its location in space with respect to the accessing points using an ESP-8266 WI-FI module, and the bot would then traverse to the required location in an obstruction-free space as per the input location of the user, using method of trilateration, and algorithms like kalman filter.
+
 
 ### 🎯 Design Goals
-!ToDo
+# CAD
+-  Design an ESP-controlled differential car.
 
-some sample
-- ✅ Compact design (within 100×100mm)
-- ✅ Efficient corner turning capability
-- ✅ Fast maze-solving algorithm
-- ✅ Differential drive with high-speed motors
+# Wifi and Access Point Setup
+-  Try and test 4 ESP 8266 wifi modules and capture the data for the arena with signal strength
+
+# Electronics and PCB designing :
+Design PCB - Access point PCB with case
+-  IMU Calibration using magnetometer
+
+# Programming:
+-  Programming a Kalman filter to fuse the data of the IMU and the WIFI positioning system.
+
+
+~~some sample~~
+~~- ✅ Compact design (within 100×100mm)~~
+~~- ✅ Efficient corner turning capability~~
+~~- ✅ Fast maze-solving algorithm~~
+~~- ✅ Differential drive with high-speed motors~~
 
 
 ## 🧠 Algorithm Development
