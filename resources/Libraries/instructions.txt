@@ -1,0 +1,5 @@
+#include <WiFi.h>  --> built in
+#include <WebServer.h>  --> built in
+#include <math.h>  --> built in
+
+to use esp32, download esp32 by expressif systems from Tools -> Board -> Board Manager (ver used in bot: 3.0.7)
