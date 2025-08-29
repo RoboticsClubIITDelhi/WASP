@@ -13,8 +13,6 @@
 
 ## 🤖 Project Overview
 
-~~This repository houses the codebase for the **!TODO(project name)**. It serves as a comprehensive collection of resources including code, CAD models, calculations, and component datasheets. Our aim is to create a well-documented reference that will enable future teams to build upon our work.~~
-
 The aim of this project is to make a bot that would identify its location in space with respect to the accessing points using an ESP-8266 WI-FI module, and the bot would then traverse to the required location in an obstruction-free space as per the input location of the user, using method of trilateration, and algorithms like kalman filter.
 
 
@@ -32,14 +30,6 @@ The aim of this project is to make a bot that would identify its location in spa
 # Programming:
 -  Programming a Kalman filter to fuse the data of the IMU and the WIFI positioning system.
 
-
-~~some sample~~
-~~- ✅ Compact design (within 100×100mm)~~
-~~- ✅ Efficient corner turning capability~~
-~~- ✅ Fast maze-solving algorithm~~
-~~- ✅ Differential drive with high-speed motors~~
-
-
 ## 🧠 Algorithm Development
 !ToDo()
 
@@ -55,20 +45,28 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 
 
 ### Week 2: Hardware Assembly
--  Assemble mechanical components
-- !TODO()
+-  Assemble components to make a rudimentary bot
+-  Assemble rudimentary wifi access points
 
-### Week 3: Debugging
--  Hardware and software troubleshooting
--  !TODO()
+### Week 3: Programming wifi access points ~~Debugging~~
+-  Programming using usb to uart converter    ~~Hardware and software troubleshooting~~
+-  Debugging esp8266 board issues while uploading code (* more on it in #issues section)
 
-### Week 4: Algorithm Refinement
--  Enhance hardware robustness
--  !TODO()
+### Week 4: Making all access points and Central Bot programming  ~~Algorithm Refinement~~
+-  All 4 access points by designing our own PCB on perf boards ~~Enhance hardware robustnes~~
+-  Made functions in central bot to read RSSI data of all the wifi access points
 
-### Weeks 5-7: Progressive Enhancements
-- 🔄 Implement iterative improvements (tbd)
-- !TODO()
+### Weeks 5-7: Progressive Enhancements in central bot code
+- Implemented Functions to get distance from measured RSSI values on a separate module
+- Calibrated the function by testing at various distances to accurately get the calibrated coefficents ~~🔄 Implement iterative improvements (tbd)~~
+- Merged these functions into the exiisting central bot code
+- Tested out kalman filter functions and added that into our Central bot code
+- further debugging and refinements
+
+### Weeks 8-9: Hardware improvements and locomotion
+- Refined access point circuits
+- Refined central bot chassis
+- added controls to run the bot via buttons on a self-hosted web server 
 
 ## 📚 Resources
 
