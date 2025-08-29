@@ -1,2 +1,9 @@
 Change ssid to wasp<i> (i = {1,2,3,4}), and upload to the esp8266 
 
+libraries: 
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
+#include <ESP8266WebServer.h>
+
+for esp8266 board, use esp8266 by 8266 community (go to tool -> board -> board Manager) (our version: 3.1.2)
+installation guide: https://www.instructables.com/ESP8266-WiFi-Module-for-Dummies/
