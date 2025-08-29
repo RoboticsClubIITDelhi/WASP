@@ -80,7 +80,7 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 ### Development Software
 - [Arduino IDE](https://www.arduino.cc/en/software/)
 - [Autodesk Inventor](https://www.autodesk.com/in/products/inventor/overview)
-- [EasyEDA](https://easyeda.com)
+- [EasyEDA](https://easyeda.com/)
 
 
 
