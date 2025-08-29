@@ -23,27 +23,27 @@ The aim of this project is to make a bot that would identify its location in spa
 
 
 
-### 🎯 Design Goals
-# CAD
+# 🎯 Design Goals
+## CAD
 -  Design an ESP-controlled differential car.
 
-# Wifi and Access Point Setup
+## Wifi and Access Point Setup
 -  Try and test 4 ESP 8266 wifi modules and capture the data for the arena with signal strength
 
-# Electronics and PCB designing :
+## Electronics and PCB designing :
 -  Design PCB - Access point PCB with case
 -  IMU Calibration using magnetometer
 
-# Programming:
+## Programming:
 -  Programming a Kalman filter to fuse the data of the IMU and the WIFI positioning system.
 
-## 🧠 Algorithm Development
+### 🧠 Algorithm Development
 !ToDo()
 
-## ⏱️ Project Timeline
+# ⏱️ Project Timeline
 Main idea is to build a very very basic version first, probably within 2 weeks and then work on modifying it
 
-### Week 1: Introduction
+## Week 1: Introduction
 -  Review the project documentations
 -  Be familiar with github
 -  Brainstorm ideas and design concepts based on the project 
@@ -51,37 +51,37 @@ Main idea is to build a very very basic version first, probably within 2 weeks a
 -  Draft electronic system diagram, CAD and PCB for access points
 
 
-### Week 2: Hardware Assembly
+## Week 2: Hardware Assembly
 -  Assemble components to make a rudimentary bot
 -  Assemble rudimentary wifi access points
 
-### Week 3: Programming wifi access points
+## Week 3: Programming wifi access points
 -  Programming using usb to uart converter
 -  Debugging esp8266 board issues while uploading code (* more on it in #issues section)
 
-### Week 4: Making all access points and Central Bot programming
+## Week 4: Making all access points and Central Bot programming
 -  All 4 access points by designing our own PCB on perf boards
 -  Made functions in central bot to read RSSI data of all the wifi access points
 
-### Weeks 5-7: Progressive Enhancements in central bot code
+## Weeks 5-7: Progressive Enhancements in central bot code
 - Implemented Functions to get distance from measured RSSI values on a separate module
 - Calibrated the function by testing at various distances to accurately get the calibrated coefficents 
 - Merged these functions into the exiisting central bot code
 - Tested out kalman filter functions and added that into our Central bot code
 - further debugging and refinements
 
-### Weeks 8-9: Hardware improvements and locomotion
+## Weeks 8-9: Hardware improvements and locomotion
 - Refined access point circuits
 - Refined central bot chassis
 - added controls to run the bot via buttons on a self-hosted website
 - added a button to get cordinates of bot on the website
 
-## 📚 Resources and references
+# 📚 Resources and references
 
 - for installations guides and issues, refer to instructions.txt files in the relevant folders/subfolders
 - for other resources, refer to [resources subfolder](https://github.com/RoboticsClubIITDelhi/WASP/tree/main/resources)
 
-### Development Software
+## Development Software
 - [Arduino IDE](https://www.arduino.cc/en/software/)
 - [Autodesk Inventor](https://www.autodesk.com/in/products/inventor/overview)
 - [EasyEDA](https://easyeda.com/)
