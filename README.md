@@ -26,7 +26,7 @@ The aim of this project is to make a bot that would identify its location in spa
 -  Try and test 4 ESP 8266 wifi modules and capture the data for the arena with signal strength
 
 # Electronics and PCB designing :
-Design PCB - Access point PCB with case
+-  Design PCB - Access point PCB with case
 -  IMU Calibration using magnetometer
 
 # Programming:
@@ -44,15 +44,14 @@ Design PCB - Access point PCB with case
 !ToDo()
 
 ## ⏱️ Project Timeline
-Main idea is to build a very very basic version first, probably within 2 weeks and then work on modifying it, (believer me doing otherwise is stupidity...)
+Main idea is to build a very very basic version first, probably within 2 weeks and then work on modifying it  ~~, (believer me doing otherwise is stupidity...)~~
 
 ### Week 1: Introduction
-- Review the competition rulebook
+-  Review the project documentations
 -  Be familiar with github
--  Brainstorm ideas and design concepts based in the video,
+-  Brainstorm ideas and design concepts based on the project 
 -  Prepare Bill of Materials
--  Draft electronic system diagram
--  !TODO()
+-  Draft electronic system diagram, CAD and PCB for access points
 
 
 ### Week 2: Hardware Assembly
