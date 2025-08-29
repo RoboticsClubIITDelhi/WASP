@@ -11,9 +11,12 @@
   </div>
 </div>
 
-## 🤖 Project Overview
+## 🤖 Project Overview - WASP (Wireless and Similitude Positioning System)
 
 The aim of this project is to make a bot that would identify its location in space with respect to the accessing points using an ESP-8266 WI-FI module, and the bot would then traverse to the required location in an obstruction-free space as per the input location of the user, using method of trilateration, and algorithms like kalman filter.
+
+## 📚 Theory:
+
 
 
 ### 🎯 Design Goals
