@@ -37,8 +37,56 @@ The aim of this project is to make a bot that would identify its location in spa
 ## Programming:
 -  Programming a Kalman filter to fuse the data of the IMU and the WIFI positioning system.
 
-### 🧠 Algorithm Development
-!ToDo()
+## 🧠 Algorithm Development
+
+The core of WASP lies in its localization and navigation algorithms, designed to achieve accurate indoor positioning where GPS is unreliable. The development process involved the following key steps:
+
+### 1. WiFi-Based Trilateration
+- The robot uses **ESP8266 modules** to scan for known WiFi access points placed at fixed positions.  
+- Received Signal Strength Indicator (**RSSI**) values are converted into approximate distances using a calibrated free-space path loss model.  
+- Trilateration mathematics is then applied to estimate the robot’s **2D position**.
+
+### 2. Inertial Measurement and Dead Reckoning
+- A **9-DoF IMU** provides acceleration, angular velocity, and magnetic heading.  
+- These readings are integrated to estimate short-term motion (**odometry**).  
+- **Magnetometer calibration routines** (e.g., figure-eight procedure) are performed before each run to reduce heading bias.
+
+### 3. Sensor Fusion with Extended Kalman Filter (EKF)
+- The EKF maintains a state vector of **position, heading, and velocity**.  
+- **Predict step:** IMU-based dead-reckoning projects the next pose.  
+- **Update step:** WiFi-based trilateration measurements correct long-term drift.  
+- This fusion balances the strengths of each sensor, yielding **smoother and more reliable localization**.
+
+### 4. Navigation and Control
+- **Waypoint navigation algorithms** convert target coordinates into motor commands.  
+- **PID controllers** regulate speed and heading, ensuring stable motion.  
+- The system continuously updates its estimated position and adjusts motor outputs to move towards the goal.
+
+### 5. Calibration and Error Handling
+- **Path-loss constants** are calibrated through offline RSSI sampling.  
+- The system compensates for **multipath reflections** and **magnetic disturbances** through adaptive filtering and calibration.  
+- If fewer than three APs are detected, the robot falls back to **odometry** or holds its **last known position**.
+
+---
+
+## Future Algorithm Enhancements
+
+To extend WASP beyond its current prototype, several algorithmic improvements are envisioned:
+
+- **Obstacle Avoidance:** Integration of ultrasonic, infrared, or LiDAR sensors to dynamically detect and avoid obstacles.  
+- **SLAM (Simultaneous Localization and Mapping):** Implementing LiDAR- or vision-based SLAM to enable real-time map building and localization.  
+- **Advanced Path Planning:** Incorporating algorithms like A*, D*, or RRT for optimized multi-room navigation.  
+- **Multi-Floor Navigation:** Using barometric sensors or 5G beacons to enable vertical positioning in multi-story environments.  
+- **User Interaction:** Developing mobile or web interfaces for selecting target destinations and monitoring navigation progress.  
+
+These future enhancements will transition WASP from a basic localization prototype into a **robust autonomous indoor navigation platform** capable of operating in realistic, dynamic environments.
+
+
+
+
+
+
+
 
 # ⏱️ Project Timeline
 Main idea is to build a very very basic version first, probably within 2 weeks and then work on modifying it
